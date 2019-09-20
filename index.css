@@ -1,17 +1,30 @@
-body {
+body{
     background-color: black;
-    color: rgba(255,255,255);
+    color: rgba(255,255,255,0.8);
 }
 
 #landing{
     height: 100vh;
-    background-image: url('https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4153140/3600/3600/m1/fpnw/wm0/squares-and-circles-motif-geometric-seamless-pattern-.jpg?1521401549&s=80daeb3ffd4edb576e3f9a6666699374');
+    background-image: url('https://v1.vuetifyjs.com/static/doc-images/parallax/material.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
 }
+
 #mainText{
     margin-top: 30vh;
+}
+
+#intro{
+    margin-top: 50px;
+}
+
+#work{
+    background-color: rgb(61,61,61);
+}
+
+#p1{
+    height: 350px;
 }
