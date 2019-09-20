@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+            $(document).ready(function(){ 
+            $('.parallax').parallax(); 
+        });
+    </script>
+    <title>Bohdan's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-fixed">
+        <nav class="black">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">My Portfolio</a>
+              <ul class="right hide-on-med-and-down" id="navList">
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#intro">About Me</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+    <div class="section" id="landing">
+      <h5 id="mainText" class="center">Hey, My Name Is</h5>
+      <h1 style="color: white;" class="center">Bohdan <b>Mykytey</b></h1>
+      <h6 id="mainText" class="center">A Web/Software Developer</h6>
+    </div>
+
+    <div class="fixed-action-btn vertical">
+      <a class="btn-floating btn-large  blue-grey darken-4">
+        <i class="fa fa-globe"></i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a>
+        </li>
+        <li>
+          <a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="intro" class="section black">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h2 class="center header">"If you love life, don't waste time, for time is what life is made up of"</h2>
+          </div>
+        </div>
+        <div class="row center">
+          <div class="col s12 m12 l3">
+            <img class="responsive-img" src="Your Picture Here" />
+          </div>
+          <dic class="col s12 m12 offset-l1 l8 ">
+            <h5 class="center">Bohdan Mykytey <b>ABOUT ME</b></h5>
+            <p>
+              YOUR BIO
+              <br />
+              <i>“Some Awesome Quote To Show Off!” </i>
+            </p>
+          </dic>
+        </div>
+      </div>
+    </div>
+
+    <div id="p1" class="parallax-container">
+      <div class="parallax">
+        <img src="Path To Image Here" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center white-text">
+            <h1><b>QUOTE</b></h1>
+            <h5>
+              “When you grow up you tend to get told that the world is the way it is and your life is just to live your
+              life inside the world. Try not to bash into the walls too much. Try to have a nice family life, have fun,
+              save a little money. That's a very limited life. Life can be much broader once you discover one simple
+              fact: Everything around you that you call life was made up by people that were no smarter than you. And
+              you can change it, you can influence it… Once you learn that, you'll never be the same again.”
+              <br /><br />
+              -Steve Jobs
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
 </html>
