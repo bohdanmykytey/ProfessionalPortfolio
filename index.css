@@ -1,34 +1,39 @@
-body{
-    background-color: black;
-    color: rgba(255,255,255,0.8);
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-#landing{
-    height: 100vh;
-    background-image: url('https://v1.vuetifyjs.com/static/doc-images/parallax/material.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -1;
+#landing {
+  height: 100vh;
+  background-image: url("https://v1.vuetifyjs.com/static/doc-images/parallax/material.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
-#mainText{
-    margin-top: 30vh;
+#mainText {
+  margin-top: 30vh;
 }
 
-#intro{
-    margin-top: 50px;
+#intro {
+  margin-top: 50px;
 }
 
-#work{
-    background-color: rgb(61,61,61);
+#work {
+  background-color: rgb(61, 61, 61);
 }
 
-#p1{
-    height: 350px;
+#p1 {
+  height: 350px;
 }
 
-.responsive-img {
-    width: 100%;
+.div.row {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+    display: flexbox;
 }
