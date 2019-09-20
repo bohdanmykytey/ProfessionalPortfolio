@@ -6,7 +6,7 @@ body{
 
 #landing{
     height: 100vh;
-    background-image: url('https://user-images.githubusercontent.com/26179770/37276818-e3e358f4-2608-11e8-9659-05585e92a588.png');
+    background-image: url('https://v1.vuetifyjs.com/static/doc-images/parallax/material.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
