@@ -30,4 +30,22 @@ body{
     height: 350px;
 }
 
+.col.s12.m12.l4  {
+    width: 100%;
+}
 
+#mainText.center   {
+    size: 25px;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .img.responsive-img {
+        /* width: 100%; */ 
+        /* min-width: 100%; */
+        /* neither of the above work rn */
+    }
+  }
